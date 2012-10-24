@@ -32,7 +32,6 @@ public class BugzillaProxy {
 
 		XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
 		String loginURL = bugzillaURL + xmlrpcSuffix;
-		System.out.println(loginURL);
 		config.setServerURL(new URL(loginURL));
 		config.setBasicUserName(name);
 		config.setBasicPassword(pass);
