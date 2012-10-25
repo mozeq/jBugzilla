@@ -47,7 +47,7 @@ public class BugzillaTicket {
 	}
 
 	public int getID() {
-		return (int) ((Object)fields.get("id"));
+		return (Integer)fields.get("id");
 	}
 
 
